@@ -1,8 +1,8 @@
 {
   "name": "rezaapp10",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "bin": {
     "reza-ssg": "./index.js"
   },
@@ -10,10 +10,7 @@
     "test": "jest --coverage",
     "prettier": "prettier --write .",
     "prettier-check": "prettier --check .",
-    "eslint": "eslint --config .eslintrc.js .",
-    "preversion": "npm test",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
+    "eslint": "eslint --config .eslintrc.js ."
   },
   "author": "Reza Poursafa",
   "license": "MIT",
